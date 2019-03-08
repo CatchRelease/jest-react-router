@@ -1,0 +1,52 @@
+{
+  "name": "@catchandrelease/jest-react-router",
+  "version": "0.1.0",
+  "description": "Jest matchers for use with React Router.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/CatchRelease/jest-react-router.git",
+  "author": "Damian Galarza <galarza.d@gmail.com>",
+  "contributors": [
+    "Anthony Costanzo <a.e.j.costanzo@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "build": "rm -rf dist/* && babel src -d dist --ignore '**/*.test.js'",
+    "lint": "yarn eslint src",
+    "test": "jest",
+    "test:ci": "yarn test && yarn lint"
+  },
+  "dependencies": {
+    "expect": "^24.3.1",
+    "jest-matcher-utils": "^24.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.10.0",
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "husky": "^1.3.1",
+    "jest": "^24.3.1",
+    "prettier": "^1.16.4",
+    "pretty-quick": "^1.10.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "peerDependencies": {
+    "enzyme": "^3.9.0"
+  }
+}
