@@ -9,7 +9,6 @@
     "Anthony Costanzo <a.e.j.costanzo@gmail.com>"
   ],
   "license": "MIT",
-  "private": false,
   "engines": {
     "node": ">=8"
   },
