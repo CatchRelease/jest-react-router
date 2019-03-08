@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`.not.toRoute fails when a route is found 1`] = `"Found /sign_in routing to MyComponent"`;
+
+exports[`.toRoute fails when a route is found with a different component 1`] = `
+"
+      [2mexpect([22m[31mreceived[39m[2m).toRoute([22m[32mexpected[39m[2m)[22m
+
+      Expected to route to:
+        [32m\\"OtherComponent\\"[39m
+      Received:
+        [31m\\"MyComponent\\"[39m
+    "
+`;
+
+exports[`.toRoute fails when a route is not found at all 1`] = `"No route matches /missing"`;
