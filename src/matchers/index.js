@@ -1,1 +1,5 @@
-export { default as toRoute } from './toRoute'; // eslint-disable-line import/prefer-default-export
+import toRoute from './toRoute';
+
+export default {
+  toRoute
+};
