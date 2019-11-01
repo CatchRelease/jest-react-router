@@ -1,6 +1,6 @@
 {
   "name": "@catchandrelease/jest-react-router",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Jest matchers for use with React Router.",
   "main": "dist/index.js",
   "repository": "https://github.com/CatchRelease/jest-react-router.git",
